@@ -16,13 +16,13 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              A passionate fresher with a strong foundation in web development, I specialize
               in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
+              I'm eager to learn and grow in the tech industry, passionate about creating elegant solutions to complex
               problems, and I'm constantly learning new technologies and
               techniques to stay at the forefront of the ever-evolving web
               landscape.
@@ -58,7 +58,7 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className="gradient-border p-6 card-hover">
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <User className="h-6 w-6 text-primary" />
@@ -86,9 +86,9 @@ export const AboutSection = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
-        </div>
+        </div> 
       </div>
     </section>
   );

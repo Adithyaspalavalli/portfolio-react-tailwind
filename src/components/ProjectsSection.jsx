@@ -3,33 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "CrowdFund - Blockchain-based crowdfunding platform",
+    description: "A decentralized crowdfunding platform built with Solidity, React.js, Ethers.js, and Thirdweb. CrowdFund allows users to create campaigns, contribute ETH securely via MetaMask, and track funding progress transparently on the Ethereum Sepolia testnet. The platform ensures trustless, transparent, and tamper-proof fundraising using smart contracts deployed on the blockchain.",
+    image: "src/assets/Crowdfund.png",
+    tags: ["React", "Hardhat", "firebase", "Ethereum", "Sepolia", "Solidity", "Blockchain",],
+    // demoUrl: "#",
+    githubUrl: "https://github.com/Adithyaspalavalli/CrowdFund-Blockchain-based-crowdfunding-platform",
   },
-  {
-    id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 2,
+  //   title: "Orbit Analytics Dashboard",
+  //   description:
+  //     "Interactive analytics dashboard with data visualization and filtering capabilities.",
+  //   image: "/projects/project2.png",
+  //   tags: ["TypeScript", "D3.js", "Next.js"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
@@ -78,7 +78,7 @@ export const ProjectsSection = () => {
                     <a
                       href={project.demoUrl}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300 "
                     >
                       <ExternalLink size={20} />
                     </a>
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Adithyaspalavalli"
           >
             Check My Github <ArrowRight size={16} />
           </a>
